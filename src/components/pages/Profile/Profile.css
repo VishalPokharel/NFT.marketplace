@@ -1,0 +1,95 @@
+.profileTop {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://wallpaperaccess.com/full/7087248.png");
+  height: 25rem;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profileTop_Header {
+  color: rgb(221, 221, 221);
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+}
+.profileTop_para {
+  color: rgb(189, 189, 189);
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+}
+.profileDetail {
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+
+  background-color: rgba(49, 49, 49, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.profileDetail_walletAddress {
+  text-align: center;
+}
+.profileDetail_walletAddress_Header {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.profileDetail_walletAddress_address {
+  font-size: 1.4rem;
+
+  color: #ff0069;
+}
+.nft_number {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+.nft_number_amount {
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #ff0069;
+  font-weight: 600;
+}
+.profileDetail_Below {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.profileDetail_Below_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lf_margin {
+  margin-right: 5rem;
+}
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.eth_span {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  color: #ff0069;
+}
+.Profile_NFT_Header {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid #ff0069;
+}
+.error-text {
+  margin-bottom: 2rem;
+}

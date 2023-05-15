@@ -1,0 +1,19 @@
+.Marketplace_top {
+  margin-bottom: 3rem;
+}
+.header {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
+.header_span {
+  color: #ff0069;
+}
+.header_description {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.06rem;
+  color: grey;
+  text-align: center;
+}

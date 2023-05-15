@@ -1,0 +1,30 @@
+.Footer {
+  height: 10rem;
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer_Top {
+  width: fit-content;
+}
+.Footer_Top_items {
+  display: flex;
+  color: grey;
+  justify-content: center;
+  align-items: center;
+}
+.Footer_Top_items_item {
+  margin-right: 2rem;
+}
+.Footer_Icon {
+  font-size: 2rem !important;
+  cursor: pointer;
+}
+.Footer_Icon:hover {
+  color: #fff;
+}
+.Footer_Bottom {
+  color: #808080;
+  margin-top: 1rem;
+}

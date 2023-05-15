@@ -1,0 +1,163 @@
+.NFTPage_Main {
+  display: flex;
+  flex-direction: column;
+}
+.NFTPageDiv {
+  margin-top: 10rem;
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+.NFTPageDiv_left {
+  flex: 1;
+}
+.NFTPageDiv_right {
+  flex: 1;
+}
+.NFTPageDiv_right_content {
+  margin: 5rem 4rem;
+}
+.NFTPageDiv_left_Image {
+  height: 460px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.NFTPageDiv_right_content_Header {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+.NFTPageDiv_right_content_Para,
+.NFTPageDiv_right_content_Trade,
+.NFTPageDiv_right_content_Trade_seller {
+  color: grey;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+}
+.NFTPageDiv_right_content_Price {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  color: grey;
+  display: flex;
+}
+.NFTPageDiv_right_content_Price_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price_span {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+.price_span_tag {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.owner {
+  color: green;
+}
+.seller {
+  color: #ff0069;
+}
+.NFTPageDiv_right_content_Trade {
+  margin-bottom: 1rem;
+}
+.NFTpage_Detail_bottom {
+  margin-top: 2rem;
+}
+
+.btn {
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-3px); /*negative to go up*/
+
+  box-shadow: 0 1rem 2rem rgba(black, 0.3);
+}
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(black, 0.3);
+}
+.btn--color {
+  background-color: #ff0069;
+  color: #cdcdcd;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%; /* 100% of height of button*/
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.btn--color:after {
+  background-color: #ff0069;
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.btn--animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards; /* Apply the style of 0% animation before the animation start*/
+}
+.message {
+  color: #cdcdcd;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 0;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  margin-right: 2rem;
+  top: 9rem;
+}
+.closeIcon {
+  margin-left: 2rem;
+  font-size: 2rem !important;
+}
+
+.closeIcon:hover {
+  cursor: pointer;
+}
+.eth_symbol {
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-left: 0.5rem;
+}
+
+.own_info {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  width: fit-content;
+}
