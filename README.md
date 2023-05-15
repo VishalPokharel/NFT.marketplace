@@ -2,8 +2,8 @@
 
 ## Links
 
-- Link to Demo: [https://www.youtube.com/watch?v=fi4TE0CAKUg]
-- Link to Documentation: [https://drive.google.com/file/d/1rY42CfHj1oZAKTKVz6Xem2McT0t29YCP/view?usp=sharing]
+- Link to Demo: []
+- Link to Documentation: []
 
 ## How we built it
 
@@ -54,13 +54,13 @@ The following technologies were used to develop the backend for this project.
 1. Clone the repository
 
 ```
-git clone https://github.com/Sk47R/Suvisa.git
+git clone 
 ```
 
 2. Navigate to the repository :open_file_folder:
 
 ```
-cd suvisa
+cd 
 ```
 
 3. Install the dependencies
